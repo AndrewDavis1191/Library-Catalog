@@ -1,0 +1,164 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LibraryDatabase
+</name>
+</assembly>
+<members>
+<member name="P:LibraryDatabase.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:LibraryDatabase.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:LibraryDatabase.My.Resources.Resources.Books_Background_image">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LibraryDatabase.My.Resources.Resources.Ender_s_Game_Cover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LibraryDatabase.My.Resources.Resources.Harry_Potter_and_the_Chamber_of_Secrets_Cover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LibraryDatabase.My.Resources.Resources.Harry_Potter_and_the_Order_of_the_Phoenix_Cover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LibraryDatabase.My.Resources.Resources.Hunger_Games_Cover">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LibraryDatabase.My.Resources.Resources.removed_watermark__first_attempt_cropped">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:LibraryDatabase.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.CheckedOutDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.CheckOutHistoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.LibraryMembersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.LibraryResourcesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.Library_EmployeesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.CheckedOutRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.CheckOutHistoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.LibraryMembersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.LibraryResourcesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.Library_EmployeesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.CheckedOutRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.CheckOutHistoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.LibraryMembersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.LibraryResourcesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet.Library_EmployeesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSetTableAdapters.CheckedOutTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSetTableAdapters.CheckOutHistoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSetTableAdapters.LibraryMembersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSetTableAdapters.LibraryResourcesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSetTableAdapters.Library_EmployeesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:LibraryDatabase.LibraryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LibraryDatabase.LibraryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:LibraryDatabase.LibraryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LibraryDatabase.LibraryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:LibraryDatabase.LibraryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LibraryDatabase.LibraryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:LibraryDatabase.LibraryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:LibraryDatabase.LibraryDataSetTableAdapters.TableAdapterManager.UpdateAll(LibraryDatabase.LibraryDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:LibraryDatabase.LibraryDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

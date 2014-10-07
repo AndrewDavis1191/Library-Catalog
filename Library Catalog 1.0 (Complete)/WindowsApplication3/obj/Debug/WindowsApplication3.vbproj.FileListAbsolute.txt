@@ -1,0 +1,2 @@
+c:\users\andrew\documents\visual studio 2013\Projects\WindowsApplication3\WindowsApplication3\bin\Debug\WindowsApplication3.exe.config
+c:\users\andrew\documents\visual studio 2013\Projects\WindowsApplication3\WindowsApplication3\bin\Debug\LibraryDatabase.exe.config
